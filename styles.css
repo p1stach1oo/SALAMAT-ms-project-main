@@ -37,3 +37,47 @@ z-index: 1;
     font-size: 20px;
     color:black;
 }
+
+.container-header{
+    background-color: lightpink;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn-profile {
+    background-color: salmon;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: darksalmon;
+}
