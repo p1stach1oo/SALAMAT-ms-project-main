@@ -81,3 +81,34 @@ z-index: 1;
 .btn:hover {
     background-color: darksalmon;
 }
+
+.custom-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* blue color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-btn:hover {
+    background-color: #0056b3; /* darker blue on hover */
+  }
+  .glow-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #007bff, 0 0 20px #007bff, 0 0 30px #007bff;
+    transition: all 0.3s ease;
+  }
+  
+  .glow-btn:hover {
+    background-color: #0056b3;
+    box-shadow: 0 0 20px #0056b3, 0 0 30px #0056b3, 0 0 40px #0056b3;
+  }
